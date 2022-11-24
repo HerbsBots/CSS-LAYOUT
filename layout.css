@@ -4,6 +4,12 @@
     
 }
 
+.position {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
 .logo1 {
     color: #800000;
 }
@@ -23,7 +29,7 @@ span {
 
 .p-text {
     text-align: justify;
-    padding: 80px;
+    padding: 100px;
     margin-left: 50px;
     margin-right: 50px;
     column-count: 2;
@@ -36,7 +42,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 20px;
 }
 
 .first-container {
@@ -65,4 +71,12 @@ span {
     margin-top: 5rem;
     padding-top:15px;
 }
-
+.footer-text{
+    text-align:center;
+    padding: 50px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    color: #964B00;
+}
